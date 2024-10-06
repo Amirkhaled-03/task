@@ -1,0 +1,8 @@
+i {
+    cursor: pointer;
+    transition: transform 0.2s, color 0.2s;
+}
+
+i:hover {
+    transform: scale(1.2);
+}

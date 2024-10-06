@@ -1,0 +1,211 @@
+<div class="text-center">
+  <h3>Add Employee</h3>
+</div>
+<div class="card my-3 w-50 mx-auto">
+  <div class="card-body"></div>
+  <form [formGroup]="AddEmployeeForm" (ngSubmit)="onSubmit()">
+    <div class="row">
+      <div class="col-6 px-4 py-4">
+        <label for="name" class="label">Name</label>
+        <input
+          type="text"
+          class="form-control"
+          formControlName="Name"
+          id="name"
+          placeholder="name"
+        />
+        <div
+          *ngIf="
+            AddEmployeeForm.get('Name')?.touched &&
+            AddEmployeeForm.get('Name')?.errors
+          "
+          class="my-1 alert alert-danger p-2"
+        >
+          <p
+            *ngIf="AddEmployeeForm.get('Name')?.errors?.['required']"
+            class="m-0"
+          >
+            Name is required
+          </p>
+          <p
+            *ngIf="AddEmployeeForm.get('Name')?.errors?.['minlength']"
+            class="m-0"
+          >
+            Min length is 5
+          </p>
+        </div>
+      </div>
+      <div class="col-6 px-4 py-4">
+        <label for="position" class="form-label">Position</label>
+        <input
+          type="text"
+          class="form-control"
+          formControlName="Position"
+          id="position"
+          placeholder="position"
+        />
+        <div
+          *ngIf="
+            AddEmployeeForm.get('Position')?.touched &&
+            AddEmployeeForm.get('Position')?.errors
+          "
+          class="my-1 alert alert-danger p-2"
+        >
+          <p
+            *ngIf="AddEmployeeForm.get('Position')?.errors?.['required']"
+            class="m-0"
+          >
+            Position is required
+          </p>
+        </div>
+      </div>
+      <div class="col-6 px-4 py-4">
+        <label for="department" class="form-label">Department</label>
+        <input
+          type="text"
+          class="form-control"
+          formControlName="Department"
+          id="department"
+          placeholder="department"
+        />
+        <div
+          *ngIf="
+            AddEmployeeForm.get('Department')?.touched &&
+            AddEmployeeForm.get('Department')?.errors
+          "
+          class="my-1 alert alert-danger p-2"
+        >
+          <p
+            *ngIf="AddEmployeeForm.get('Department')?.errors?.['required']"
+            class="m-0"
+          >
+            Department is required
+          </p>
+        </div>
+      </div>
+      <div class="col-6 px-4 py-4">
+        <label for="salary" class="form-label">Salary</label>
+        <input
+          type="text"
+          class="form-control"
+          formControlName="Salary"
+          id="salary"
+          placeholder="salary"
+        />
+        <div
+          *ngIf="
+            AddEmployeeForm.get('Salary')?.touched &&
+            AddEmployeeForm.get('Salary')?.errors
+          "
+          class="my-1 alert alert-danger p-2"
+        >
+          <p
+            *ngIf="AddEmployeeForm.get('Salary')?.errors?.['required']"
+            class="m-0"
+          >
+            Salary is required
+          </p>
+        </div>
+      </div>
+      <div class="col-6 px-4 py-4">
+        <label for="project" class="form-label">Project</label>
+        <input
+          type="text"
+          class="form-control"
+          formControlName="Project"
+          id="project"
+          placeholder="Project"
+        />
+        <div
+          *ngIf="
+            AddEmployeeForm.get('Project')?.touched &&
+            AddEmployeeForm.get('Project')?.errors
+          "
+          class="my-1 alert alert-danger p-2"
+        >
+          <p
+            *ngIf="AddEmployeeForm.get('Project')?.errors?.['required']"
+            class="m-0"
+          >
+            Project is required
+          </p>
+        </div>
+      </div>
+      <div class="col-6 px-4 py-4">
+        <label for="address" class="form-label">Address</label>
+        <input
+          type="text"
+          class="form-control"
+          formControlName="Address"
+          id="address"
+          placeholder="Address"
+        />
+        <div
+          *ngIf="
+            AddEmployeeForm.get('Address')?.touched &&
+            AddEmployeeForm.get('Address')?.errors
+          "
+          class="my-1 alert alert-danger p-2"
+        >
+          <p
+            *ngIf="AddEmployeeForm.get('Address')?.errors?.['required']"
+            class="m-0"
+          >
+            Address is required
+          </p>
+        </div>
+      </div>
+      <div class="col-6 px-4 py-4">
+        <label for="startDate" class="form-label">Start Date</label>
+        <input
+          type="datetime-local"
+          class="form-control"
+          formControlName="StartDate"
+          id="startDate"
+        />
+        <div
+          *ngIf="
+            AddEmployeeForm.get('StartDate')?.touched &&
+            AddEmployeeForm.get('StartDate')?.errors
+          "
+          class="my-1 alert alert-danger p-2"
+        >
+          <p
+            *ngIf="AddEmployeeForm.get('StartDate')?.errors?.['required']"
+            class="m-0"
+          >
+            StartDate is required
+          </p>
+        </div>
+      </div>
+      <div class="col-6 px-4 py-4">
+        <label for="endDate" class="form-label">End Date</label>
+        <input
+          type="datetime-local"
+          class="form-control"
+          formControlName="EndDate"
+          id="endDate"
+        />
+        <div
+          *ngIf="
+            AddEmployeeForm.get('EndDate')?.touched &&
+            AddEmployeeForm.get('EndDate')?.errors
+          "
+          class="my-1 alert alert-danger p-2"
+        >
+          <p
+            *ngIf="AddEmployeeForm.get('EndDate')?.errors?.['required']"
+            class="m-0"
+          >
+            EndDate is required
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="px-4 py-2">
+      <app-button type="submit" [disabled]="AddEmployeeForm.invalid"
+        >Submit</app-button
+      >
+    </div>
+  </form>
+</div>
