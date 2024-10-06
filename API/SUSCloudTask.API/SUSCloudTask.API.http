@@ -1,0 +1,6 @@
+@SUSCloudTask.API_HostAddress = http://localhost:5015
+
+GET {{SUSCloudTask.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

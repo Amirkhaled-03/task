@@ -1,0 +1,12 @@
+D:\work\Task\API\SUSCloudTask.DAL\bin\Debug\net8.0\SUSCloudTask.DAL.deps.json
+D:\work\Task\API\SUSCloudTask.DAL\bin\Debug\net8.0\SUSCloudTask.DAL.dll
+D:\work\Task\API\SUSCloudTask.DAL\bin\Debug\net8.0\SUSCloudTask.DAL.pdb
+D:\work\Task\API\SUSCloudTask.DAL\obj\Debug\net8.0\SUSCloudTask.DAL.csproj.AssemblyReference.cache
+D:\work\Task\API\SUSCloudTask.DAL\obj\Debug\net8.0\SUSCloudTask.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\Task\API\SUSCloudTask.DAL\obj\Debug\net8.0\SUSCloudTask.DAL.AssemblyInfoInputs.cache
+D:\work\Task\API\SUSCloudTask.DAL\obj\Debug\net8.0\SUSCloudTask.DAL.AssemblyInfo.cs
+D:\work\Task\API\SUSCloudTask.DAL\obj\Debug\net8.0\SUSCloudTask.DAL.csproj.CoreCompileInputs.cache
+D:\work\Task\API\SUSCloudTask.DAL\obj\Debug\net8.0\SUSCloudTask.DAL.dll
+D:\work\Task\API\SUSCloudTask.DAL\obj\Debug\net8.0\refint\SUSCloudTask.DAL.dll
+D:\work\Task\API\SUSCloudTask.DAL\obj\Debug\net8.0\SUSCloudTask.DAL.pdb
+D:\work\Task\API\SUSCloudTask.DAL\obj\Debug\net8.0\ref\SUSCloudTask.DAL.dll

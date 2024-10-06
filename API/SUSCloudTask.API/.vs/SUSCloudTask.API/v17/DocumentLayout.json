@@ -1,0 +1,46 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\work\\Task\\API\\SUSCloudTask.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{320232DB-11AF-46CE-AE15-3B9639691254}|SUSCloudTask.API.csproj|d:\\work\\task\\api\\suscloudtask.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{320232DB-11AF-46CE-AE15-3B9639691254}|SUSCloudTask.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 285,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\work\\Task\\API\\SUSCloudTask.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\work\\Task\\API\\SUSCloudTask.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T11:58:12.74Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

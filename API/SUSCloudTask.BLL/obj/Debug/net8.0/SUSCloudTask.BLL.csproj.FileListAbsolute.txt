@@ -1,0 +1,15 @@
+D:\work\Task\API\SUSCloudTask.BLL\bin\Debug\net8.0\SUSCloudTask.BLL.deps.json
+D:\work\Task\API\SUSCloudTask.BLL\bin\Debug\net8.0\SUSCloudTask.BLL.dll
+D:\work\Task\API\SUSCloudTask.BLL\bin\Debug\net8.0\SUSCloudTask.BLL.pdb
+D:\work\Task\API\SUSCloudTask.BLL\bin\Debug\net8.0\SUSCloudTask.DAL.dll
+D:\work\Task\API\SUSCloudTask.BLL\bin\Debug\net8.0\SUSCloudTask.DAL.pdb
+D:\work\Task\API\SUSCloudTask.BLL\obj\Debug\net8.0\SUSCloudTask.BLL.csproj.AssemblyReference.cache
+D:\work\Task\API\SUSCloudTask.BLL\obj\Debug\net8.0\SUSCloudTask.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\Task\API\SUSCloudTask.BLL\obj\Debug\net8.0\SUSCloudTask.BLL.AssemblyInfoInputs.cache
+D:\work\Task\API\SUSCloudTask.BLL\obj\Debug\net8.0\SUSCloudTask.BLL.AssemblyInfo.cs
+D:\work\Task\API\SUSCloudTask.BLL\obj\Debug\net8.0\SUSCloudTask.BLL.csproj.CoreCompileInputs.cache
+D:\work\Task\API\SUSCloudTask.BLL\obj\Debug\net8.0\SUSCloud.DD84460C.Up2Date
+D:\work\Task\API\SUSCloudTask.BLL\obj\Debug\net8.0\SUSCloudTask.BLL.dll
+D:\work\Task\API\SUSCloudTask.BLL\obj\Debug\net8.0\refint\SUSCloudTask.BLL.dll
+D:\work\Task\API\SUSCloudTask.BLL\obj\Debug\net8.0\SUSCloudTask.BLL.pdb
+D:\work\Task\API\SUSCloudTask.BLL\obj\Debug\net8.0\ref\SUSCloudTask.BLL.dll
